@@ -47,17 +47,12 @@
 </head>
 <body>
 
-<div class="content">
-	<div class="header">
-		<a href="index.html">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="#">Угадайка</a>
-	</div>
-
 <div class="contentWrap">
     <div class="content">
+    	<?php
+	include "menu.php";
+	?>
         <div class="center">
-
 			<h1>Игра угадайка</h1>
 
 			<div class="box">

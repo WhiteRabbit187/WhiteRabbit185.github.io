@@ -2,17 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Личный сайт студента Geekbrains</title>
+	<title>Личный сайт студента GeekBrains</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="content">
-	<div class="header">
-		<a href="#">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-	</div>
+	<?php
+	include "menu.php";
+	?>
 
 	<h1>Личный сайт студента GeekBrains</h1>
 
@@ -27,6 +25,7 @@
 			<a href="#">Главная</a>,
 			<a href="#"> Загадка</a>,
 			<a href="#">Угадайка</a>
+			<a href="#">Генерируем пароль</a>
 			</p>
 		</div>
 	</div>
@@ -34,7 +33,7 @@
 
 <div class="footer">
 
-	Copyright &copy; <?php echo "Привет";?> Galkin Andrey
+	Copyright &copy; <?php echo date("Y");?> Galkin Andrey
 </div>
 
 
